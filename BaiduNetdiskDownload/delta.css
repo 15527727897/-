@@ -1,0 +1,390 @@
+body {
+  min-width: 1400px;
+  background: url(../zhuce.img/zhuce_fr.png) no-repeat center top;
+}
+.wrap {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 1px;
+  background: url(../img/delta/bg.png) no-repeat center;
+}
+.wrapIn {
+  width: 1400px;
+  height: 1181px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.header {
+  padding-top: 36px;
+  padding-left: 113px;
+  position: relative;
+}
+.header ul {
+  display: inline-block;
+}
+.header ul li {
+  width: 140px;
+  height: 60px;
+  float: left;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.header ul li img {
+  display: none;
+}
+.header ul li:hover img {
+  display: block;
+}
+.header ul li:nth-child(1) {
+  background: url(../zhuce.img/shouye_1.png);
+}
+.header ul li:nth-child(2) {
+  background: url(../zhuce.img/zhanghaoguanli_1.png);
+}
+.header ul li:nth-child(3) {
+  background: url(../zhuce.img/kuaisuchongzhi_1.png);
+}
+.header ul li:nth-child(3) img {
+  display: block;
+}
+.header .goin {
+  width: 200px;
+  height: 60px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50px;
+  left: 79%;
+}
+.header .goin a {
+  margin-right: 20px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.header .logo {
+  position: absolute;
+  top: 47px;
+  left: 13px;
+}
+.main {
+  position: relative;
+  margin-bottom: 185px;
+}
+.main .main_l {
+  width: 256px;
+  padding-left: 1px;
+  overflow: hidden;
+  float: left;
+}
+.main .main_l ul li {
+  width: 256px;
+  height: 78px;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+.main .main_l ul li img {
+  display: none;
+}
+.main .main_l ul li:nth-child(1) {
+  background: url(../img/delta/wxcz_1.png);
+}
+.main .main_l ul li:nth-child(1) img {
+  display: block;
+}
+.main .main_l ul li:nth-child(2) {
+  background: url(../img/delta/zfbcz_1.png);
+}
+.main .main_l ul li:nth-child(3) {
+  background: url(../img/delta/dkcz_1.png);
+}
+.main .main_r1,
+.main .main_r2 {
+  width: 675px;
+  height: 728px;
+  float: right;
+  font-size: 13px;
+  padding: 25px 0 0 20px;
+}
+.main .main_r1 li,
+.main .main_r2 li {
+  margin-bottom: 20px;
+}
+.main .main_r1 li select,
+.main .main_r2 li select {
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid skyblue;
+}
+.main .main_r1 li p,
+.main .main_r2 li p {
+  padding-top: 5px;
+  padding-left: 90px;
+  font-size: 13px;
+  color: #999;
+}
+.main .main_r1 li .p,
+.main .main_r2 li .p {
+  padding-left: 68px;
+}
+.main .main_r1 li .rd,
+.main .main_r2 li .rd,
+.main .main_r1 li .rds,
+.main .main_r2 li .rds {
+  margin-right: 15px;
+  color: #999999;
+}
+.main .main_r1 li input,
+.main .main_r2 li input {
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+.main .main_r1 li .num,
+.main .main_r2 li .num,
+.main .main_r1 li .nums,
+.main .main_r2 li .nums {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+.main .main_r1 li .ip,
+.main .main_r2 li .ip {
+  border: 1px solid skyblue;
+  width: 240px;
+  height: 30px;
+}
+.main .main_r1 li .yip,
+.main .main_r2 li .yip {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+.main .main_r1 li i,
+.main .main_r2 li i {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  margin-bottom: -4px;
+  display: inline-block;
+  background: url(../zhuce.img/tishi.png) center center;
+}
+.main .main_r1 li b,
+.main .main_r2 li b {
+  color: #000000;
+  font-weight: normal;
+}
+.main .main_r1 li .huan,
+.main .main_r2 li .huan {
+  background: #FFFFFF;
+  border: none;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  color: #80a7e7;
+  outline: none;
+}
+.main .main_r1 li .last-input,
+.main .main_r2 li .last-input {
+  position: absolute;
+  left: 2000px;
+}
+.main .main_r1 li:nth-child(3),
+.main .main_r2 li:nth-child(3),
+.main .main_r1 li:nth-child(4),
+.main .main_r2 li:nth-child(4),
+.main .main_r1 li:nth-child(5),
+.main .main_r2 li:nth-child(5) {
+  margin-left: -13px;
+  color: #999999;
+}
+.main .main_r1 li:nth-child(8),
+.main .main_r2 li:nth-child(8) {
+  margin-left: 13px;
+}
+.main .main_r1 li:last-child,
+.main .main_r2 li:last-child {
+  margin-left: 80px;
+}
+.main .main_r1 li:nth-child(6) span,
+.main .main_r2 li:nth-child(6) span,
+.main .main_r1 li:nth-child(7) span,
+.main .main_r2 li:nth-child(7) span,
+.main .main_r1 li:nth-child(8) span,
+.main .main_r2 li:nth-child(8) span {
+  line-height: 24px;
+  padding: 0 0 0 3px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.main .main_r1 li:nth-child(6) span b,
+.main .main_r2 li:nth-child(6) span b,
+.main .main_r1 li:nth-child(7) span b,
+.main .main_r2 li:nth-child(7) span b,
+.main .main_r1 li:nth-child(8) span b,
+.main .main_r2 li:nth-child(8) span b {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  box-sizing: content-box;
+}
+.main .main_r3 {
+  width: 675px;
+  height: 728px;
+  float: right;
+  font-size: 13px;
+  padding: 25px 0 0 20px;
+}
+.main .main_r3 input {
+  width: 240px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+  border: 1px solid skyblue;
+}
+.main .main_r3 li {
+  margin-bottom: 20px;
+}
+.main .main_r3 li .yip {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+.main .main_r3 li i {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  margin-bottom: -4px;
+  display: inline-block;
+  background: url(../zhuce.img/tishi.png) center center;
+}
+.main .main_r3 li b {
+  color: #000000;
+  font-weight: normal;
+}
+.main .main_r3 li .huan {
+  background: #FFFFFF;
+  border: none;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  color: #80a7e7;
+  outline: none;
+}
+.main .main_r3 li p {
+  margin-bottom: 20px;
+  padding-left: 68px;
+  color: #999;
+  padding-top: 5px;
+}
+.main .main_r3 li select {
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid skyblue;
+}
+.main .main_r3 li:nth-child(2) {
+  margin: 0;
+}
+.main .main_r3 li:nth-child(2) input {
+  width: 56px;
+  height: 28px;
+  margin: 0 5px;
+  border: 1px solid skyblue;
+  text-align: center;
+}
+.main .main_r3 li:nth-child(2) input:nth-child(1) {
+  margin-left: 3px;
+}
+.main .main_r3 li:nth-child(4) span,
+.main .main_r3 li:nth-child(5) span,
+.main .main_r3 li:nth-child(6) span {
+  line-height: 24px;
+  padding: 0 0 0 3px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.main .main_r3 li:nth-child(4) span b,
+.main .main_r3 li:nth-child(5) span b,
+.main .main_r3 li:nth-child(6) span b {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  box-sizing: content-box;
+}
+.main .main_r3 li:nth-child(6) {
+  margin-left: 13px;
+}
+.main .main_r3 li:last-child {
+  margin-left: 80px;
+}
+.main .main_r2,
+.main .main_r3 {
+  display: none;
+}
+#submit3,
+#buttons3 {
+  width: 101px;
+  height: 39px;
+}
+input[type=submit],
+input[type=reset] {
+  border: none;
+  width: 101px;
+  height: 38px;
+  margin: 0 20px;
+}
+input[type=submit] {
+  cursor: pointer;
+  margin-left: 64px!important;
+  background: url(../img/delta/qrcz_1.png);
+}
+input[type=submit]:hover {
+  background: url(../img/delta/qrcz_2.png);
+}
+input[type=reset] {
+  background: url(../img/delta/cz_1.png);
+}
+input[type=reset]:hover {
+  background: url(../img/delta/cz_2.png);
+}
+.sp3 {
+  font-size: 13px;
+  display: inline-block;
+}
+.sp3 a {
+  color: #3a86d4;
+  display: inline-block;
+}
+#sp4,
+#sp4_2 {
+  float: right;
+  margin-top: -14px;
+  margin-right: 150px;
+  display: none;
+}
+.red {
+  color: red;
+}
+.true {
+  background: url(../zhuce.img/lv_bg.png) no-repeat;
+}
+.flase {
+  background: url(../zhuce.img/red_bg.png) no-repeat;
+}
+.b_true {
+  background: url(../zhuce.img/zhengque.png) no-repeat;
+}
+.b_flase {
+  background: url(../zhuce.img/cuowu.png) no-repeat;
+}
